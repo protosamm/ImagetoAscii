@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+  
+  <body>
+    <div class="header">
+      <p class="Title">Image to ASCII</p>
+    </div>
+    <div class="main-container">
+      <div class="canvas-container" id="canvas-container">
+        <!-- The p5.js canvas will be appended here -->
+      </div>
+      <div class="sidebar">
+        <div class="upload-container">
+          <button id="custom-upload-button" style="--clr:#ff0000">CHOOSE IMAGE</button>
+          <input type="file" id="image-upload" accept="image/*" hidden>
+        </div>
+        <div class="sample-image-container">
+          <img id="sample-image" src="dog_of.jpeg" alt="Sample Image">
+        </div>
+        <div class="slider-container">
+          <label for="density-slider">Character Size:</label>
+          <input type="range" id="density-slider" min="1" max="100" value="20" step="1">
+          <span id="density-value">20</span>
+        </div>
+        <!-- <div class="generate-container">
+          <button id="generate-button">GENERATE</button>
+        </div> -->
+      </div>
+    </div>
+    <div>
+      <script src="sketch.js"></script>
+    </div>
+    <!-- <div class="information">
+      <p>using p5.js library</p>
+    </div> -->
+  </body>
+</html>
