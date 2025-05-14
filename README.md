@@ -1,7 +1,7 @@
 
 # Image to ASCII art
 
-This project is a web-based image-to-ASCII art generator built with P5.js. It transforms images into dynamic ASCII representations rendered in a 3D space, combining the aesthetic of retro text art with the power of WebGL.
+This project is a web-based image-to-ASCII art generator built with P5.js. It transforms images into dynamic ASCII representations rendered in a 3D space, combining the aesthetic of retro text art with the power of WebGL.  
 https://protosamm.github.io/ImagetoAscii/
 
 
