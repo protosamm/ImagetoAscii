@@ -17,7 +17,7 @@ https://protosamm.github.io/ImagetoAscii/
 - HTML / CSS / JavaScript – for the front-end structure
 ## 🚀 Getting Started
 - Clone the repository:
-- git clone https://github.com/yourusername/image-to-ascii-p5js.git  
+- git clone https://github.com/protosamm/ImagetoAscii.git
 - Open index.html in your browser.  
 - Upload an image and watch it convert to ASCII art.
 
